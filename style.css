@@ -1,0 +1,43 @@
+/* CSS files add styling rules to your content */
+
+body { 
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 2em;
+}
+
+.top h1 {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: black;
+}
+
+.top a {
+  color: 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: center;
+  padding: 30px;
+  height: auto;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.firstbox {
+  background-color: #FEAE47;
+}
+.secondbox {
+  background-color: #FEAE47;
+}
+.thirdbox {
+  background-color: #FEAE47;
+}
