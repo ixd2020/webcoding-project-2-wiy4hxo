@@ -1,24 +1,112 @@
 /* CSS files add styling rules to your content */
 
-body { 
+body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  margin: 2em;
+  margin: 0;
 }
 
-.top h1 {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  color: black;
+.container {
+  width: 100%;
+  height: 50px;
+  top: 0;
+  position: absolute;
 }
 
-.top a {
-  color: 
+.navbar {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  text-align: center;
+  padding: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #2f2f2f;
+  float: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: center;
+}
+
+li a:hover {
+  color: #ffffff;
+}
+
+.top-cont {
+  display: block;
+  top: 52px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+.top-text {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.top-text a {
+  color: #0072c6;
 }
 
 * {
   box-sizing: border-box;
 }
 
-.box {
+.first-photo-top {
+  top: 100px;
+  position: relative;
+}
+
+.twobottom {
+  top: 68px;
+  float: center;
+  padding: 30px;
+  height: auto;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+.two-bottom-middle {
+  top: 68px;
+  float: center;
+  padding: 30px;
+  height: auto;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+.two-bottom-last {
+  top: 68px;
   float: center;
   padding: 30px;
   height: auto;
@@ -32,12 +120,657 @@ body {
   clear: both;
   display: table;
 }
-.firstbox {
-  background-color: #FEAE47;
+.bottom-top-left {
+  background-color: #ffffff;
+  float: left;
 }
-.secondbox {
-  background-color: #FEAE47;
+.bottom-top-right {
+  background-color: #ffffff;
+  float: right;
 }
-.thirdbox {
-  background-color: #FEAE47;
+.bottom-middle-left {
+  background-color: #ffffff;
+  float: left;
+}
+.bottom-middle-right {
+  background-color: #ffffff;
+  float: right;
+}
+.bottom-last-left {
+  background-color: #ffffff;
+  float: left;
+}
+.bottom-last-right {
+  background-color: #ffffff;
+  float: right;
+}
+
+.iconcontainer {
+  top: 700px;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.iconnav {
+  float: center;
+  text-align: center;
+  margin-left: 390px;
+  margin-right: auto;
+}
+
+.iconwordcontainer {
+  top: 800px;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.wordnav {
+  float: center;
+  text-align: center;
+  margin-left:300px;
+  margin-right: auto;
+  word-spacing: 30px;
+}
+
+.wordnav a {
+  color: black;
+}
+
+.wordnav a:hover {
+  color: black;
+}
+
+.next3section {
+  top: 1000px;
+  position: relative;
+}
+
+.warranty {
+  position: relative;
+  top: 1000px;
+  float: center;
+  padding-left: 560px;
+}
+
+.warranty h1 {
+  position: relative;
+  float: center;
+  padding-left: 5px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.warrantytext {
+  top: 1000px;
+  position: relative;
+  text-align: center;
+  float: center;
+  justify-content: center;
+  width: 1035px;
+  padding-left: 440px;
+  word-wrap: break-word;
+  line-height: 1.6;
+  font-size: 17px;
+  font-weight: 400px;
+  line-spacing: -0.336px;
+}
+
+.warrantyline {
+  position: relative;
+  top: 1010px;
+  float: center;
+  padding-left: 100px;
+}
+
+.warrantyline hr {
+  top: 2000;
+  position: relative;
+  size: 0.5px;
+  width: 1000px;
+}
+
+.counterfeit {
+  position: relative;
+  top: 1000px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.6;
+  line-spacing: -0.336px;
+  float: center;
+  padding-left: 550px;
+}
+
+.counterfeittext {
+  position: relative;
+  text-align: center;
+  float: center;
+  justify-content: center;
+  width: 1010px;
+  word-wrap: break-word;
+  top: 1006px;
+  padding-left: 450px;
+  line-height: 1.8;
+  font-size: 17px;
+  font-weight: 400px;
+  line-spacing: -0.336px;
+  color: #333;
+}
+
+.counterfeittext2 {
+  position: relative;
+  text-align: center;
+  float: center;
+  justify-content: center;
+  width: 1090px;
+  word-wrap: break-word;
+  top: 1020px;
+  padding-left: 320px;
+  line-height: 1.8;
+  font-size: 17px;
+  font-weight: 400px;
+  line-spacing: -0.336px;
+  color: #333;
+}
+
+.counterline {
+  position: relative;
+  top: 70px;
+  float: center;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.counterline hr {
+  top: 200;
+  position: relative;
+  float: center;
+  size: 0.5px;
+  width: 1000px;
+}
+
+.leftcard {
+  position: relative;
+  top: 1150px;
+  float: left;
+  padding-left: 300px;
+}
+
+.rightcardtext {
+  position: relative;
+  top: 1150px;
+  float: center;
+  padding-left: 60px;
+}
+
+.rightcardtext h3 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.rightcardtext a {
+  font-size: 17px;
+}
+
+.cardline {
+  position: relative;
+  top: 1000px;
+  float: center;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.cardline hr {
+  top: 190px;
+  position: relative;
+  float: center;
+  size: 0.5px;
+  width: 1000px;
+}
+
+.appleservice {
+  top: 1230px;
+  width: 1000px;
+  height: 300px;
+  word-wrap: break-word;
+  padding-left: 220px;
+  position: relative;
+}
+
+.appleservice h2 {
+  padding-left: 100px;
+}
+
+.servicenav {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  text-align: center;
+  width: 520px;
+  padding-right: 10px;
+  top: 1000px;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  float: center;
+  word-wrap: break-word;
+}
+
+
+.appleservice ul {
+  list-style: none;
+  margin: 0;
+  text-align: left;
+}
+
+.appleservice li {
+  float: left;
+}
+
+.appleservice li a {
+  display: inline-block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: center;
+}
+
+.appleservice a:hover {
+  color: blue;
+}
+
+.main {
+  display: block;
+  top: 50px;
+  margin-top: 45px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 87.5%;
+  text-align: center;
+}
+
+.main h1 {
+  color: black;
+  text-align: center;
+  max-width: 330px;
+  width: auto;
+  margin-bottom: 35px;
+}
+
+.search-box {
+  display: block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 1em;
+}
+
+.searchform-form {
+  position: relative;
+  
+}
+
+.form {
+  display: block;
+}
+
+#searchform-form .form-textbox {
+    padding-bottom: 1px;
+}
+
+.form-textbox.form-icon {
+    padding-left: 49px;
+}
+
+.form-textbox {
+    font-size: 17px;
+    line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 100%;
+    height: 3.3em;
+    margin-bottom: 14px;
+    padding-top: 18px;
+    padding-right: 16px;
+    color: #333;
+    text-align: left;
+    border-top-color: #CCCCCC;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: #CCCCCC;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: #CCCCCC;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #CCCCCC;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #FFFFFFF;
+}
+
+.form-textbox.form-icon ~ .form-label {
+    left: 50px;
+}
+
+.form-textbox ~ .form-label {
+    position: absolute;
+    top: 18px;
+    color: #888;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.form-label {
+  font-size: 17px;
+    line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    display: block;
+}
+
+.navbarbar {
+  top: 0px;
+  width: 100%;
+  height: 120px;
+  position: relative;
+  background-color: #2f2f2f;
+}
+
+.mactypes {
+  top: 50px;
+  height: 120px;
+  position: relative;
+}
+
+
+.topbanner {
+  position: absolute;
+  top: 50px;
+}
+
+
+
+footer {
+  font-size: 12px;
+  top: 68px;
+  min-width: 320px;
+  background-color: #f5f5f7;
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-size: 12px;
+  text-align: center;
+}
+.footnote1 {
+  left: 30px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  padding-bottom: 0.8em;
+  font-weight: 400;
+}
+
+.footnote2 {
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  padding-bottom: 0.8em;
+  font-weight: 400;
+}
+
+footer hr {
+  size: 1px;
+  width: 950px;
+}
+
+.welcometomac {
+  top: 0;
+}
+
+.whichmac {
+  width: 100%;
+  height:700px;
+  position: absolute;
+  top: 2000px;
+}
+
+.whichmacphoto {
+  top: 50;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.doublewishes {
+  width: 100%;
+  height:700px;
+  position: absolute;
+  top: 2800px;
+}
+
+.doublewishesphoto {
+  top: 50;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.extragrey {
+  width: 100%;
+  height:700px;
+  position: absolute;
+  top: 3330px;
+}
+
+.greyleft {
+  top: 50;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.extragrey2 {
+  width: 100%;
+  height:700px;
+  position: absolute;
+  top: 3330px;
+}
+
+.greyright {
+  top: 50;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-right: 244px;
+}
+
+.tigacontainer {
+  width: 100%;
+  height: 50px;
+  top: 4000px;
+  position: absolute;
+}
+
+.tigaservicenav {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 400px;
+  top: 4000px;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  float: center;
+}
+
+.tigaserviceh3 {
+  width: 100%;
+  height: 50px;
+  top: 4100px;
+  position: absolute;
+}
+
+.tigah3nav {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 290px;
+  top: 4100px;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  float: center;
+}
+
+.tigaservicetext {
+  width: 100%;
+  height: 50px;
+  top: 4140px;
+  position: absolute;
+}
+
+.tigatext {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right:700px;
+  text-align: center;
+  padding-left: 290px;
+  top: 4140px;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  float: center;
+  font-size: 15px;
+  width: 1390px;
+  word-wrap: break-word;
+}
+
+.idkmac {
+  width: 100%;
+  height:700px;
+  position: absolute;
+  top: 4250px;
+}
+
+.mach1 h1 {
+  float: center;
+  text-align: center;
+  
+}
+
+.bigsurcont {
+  width: 100%;
+  height:700px;
+  position: absolute;
+  top: 4300px;
+}
+
+.bigsurbanner {
+  top: 20;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-left: 210px;
+}
+
+.features {
+  width: 100%;
+  height:700px;
+  position: absolute;
+  top: 4850px;
+}
+
+.featureleft {
+  top: 50;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-left: 210px;
+}
+
+.features2 {
+  width: 100%;
+  height:700px;
+  position: absolute;
+  top: 4850px;
+}
+
+.featureright {
+  top: 50;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-right: 240px;
+}
+
+.builtincont {
+  width: 100%;
+  height:700px;
+  position: absolute;
+  top: 5400px;
+}
+
+.builtinapps {
+  top: 20;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.getmore {
+  width: 100%;
+  height:700px;
+  position: absolute;
+  top: 6380px;
+}
+
+.getmoreh1 h1 {
+  float: center;
+  text-align: center;
+  
+}
+
+.bundlecont {
+  width: 100%;
+  height:700px;
+  position: absolute;
+  top: 6460px;
+}
+
+.bundle {
+  top: 50;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-left: 200px;
 }
